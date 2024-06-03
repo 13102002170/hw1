@@ -1,0 +1,193 @@
+/* SELETTORI CSS per MAIN CONTENT */
+main {
+    max-width: 1300px;
+    margin: auto;
+}
+
+/* Section 1 del Main Content */
+#flex-container-main-section1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#titolo-main-section1 {
+    color: indianred;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#sottotitolo-main-section1 {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Section 2 del Main Content */
+#titolo-section2 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
+
+.contenitore-img1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#img1 {
+    width: 90%;
+}
+
+#flex-container-main-section2 {
+    display: flex;
+}
+
+.flex-item-main-section2 ul li:first-child {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Section 3 del Main Content */
+.contenitore-img2 {
+    text-align: center;
+    margin-top: 70px;
+}
+
+#img2 {
+    width: 15%;
+}
+
+#titolo-section3 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
+
+#flex-container-main-section3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.flex-item-main-section3 {
+    border-bottom: 1px solid #ccc; 
+}
+
+.flex-item-main-section3 ul li:first-child {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#informazioni-confronto {
+    margin-left: 40px;
+}
+
+.contenitore-pulsante-scopri-di-piu {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+#pulsante-scopri-di-piu {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 155px;
+    height: 45px;
+}
+
+#pulsante-scopri-di-piu:hover {
+    background-color: #dedcdc;
+}
+
+/* Section 4 del Main Content */
+#flex-container1-footer-section1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: line;
+    padding-bottom: 13px;
+    flex-wrap: wrap;
+    gap: 25%;
+}
+
+#titolo-container1-section1 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+#flex-container1-footer-section1 ul {
+    max-width: 550px;
+    border-bottom: 1px solid #ccc; 
+}
+
+#flex-container1-footer-section1 ul:first-child {
+    padding-top: 40px;
+}
+
+#flex-container1-footer-section1 ul:last-child {
+    border-bottom: none; 
+}
+
+.domanda {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.risposta {
+    display: none;
+    padding-bottom: 20px;
+}
+
+.show {
+    display: block;
+}
+
+#flex-container2-footer-section1 {
+    display: flex;
+    flex-direction: column;   
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    margin-bottom: 70px;
+}
+
+.flex-item2-footer-section1 {
+    text-align: center;
+}
+
+#titolo-container2-section1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#pulsante-trova-un-superhost {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 195px;
+    height: 45px; 
+}
+
+#pulsante-trova-un-superhost:hover {
+    background-color: #dedcdc;
+}
