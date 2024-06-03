@@ -1,8 +1,0 @@
--- CREAZIONE TABELLA: PREFERITI
-CREATE TABLE IF NOT EXISTS PREFERITI (
-    id_utente INTEGER,
-    id_immobile INTEGER,
-    PRIMARY KEY(id_utente, id_immobile),
-    FOREIGN KEY(id_utente) REFERENCES UTENTI(id) ON UPDATE CASCADE,
-    FOREIGN KEY(id_immobile) REFERENCES IMMOBILI(id) ON UPDATE CASCADE
-) Engine = 'InnoDB';
